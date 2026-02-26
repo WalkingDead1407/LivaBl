@@ -1,6 +1,6 @@
 **A Data-Driven Quality of Life Index for Smarter Home Decisions**
 
-UrbanLens is an open-source platform that aggregates public urban datasets to generate a **0–100 Quality of Life score** for every ward. It helps renters, homebuyers, researchers, and planners make informed decisions through comparable locality insights and an interactive map.
+Livebl is an open-source platform that aggregates public urban datasets to generate a **0–100 Quality of Life score** for every ward. It helps renters, homebuyers, researchers, and planners make informed decisions through comparable locality insights and an interactive map.
 
 
 ##  																										Problem
@@ -17,7 +17,7 @@ As a result, people rely on price, intuition, and word-of-mouth rather than meas
 
 ##                                                      Solution
 
-UrbanLens unifies multiple public datasets into a **standardized locality score (0–100)**.
+Livebl unifies multiple public datasets into a **standardized locality score (0–100)**.
 
 The platform transforms complex urban data into simple, actionable insights through:
 
@@ -40,7 +40,7 @@ The platform transforms complex urban data into simple, actionable insights thro
 
 ##  																							Quality Score Metrics (MVP)
 
-UrbanLens computes scores using six key pillars:
+Livebl computes scores using six key pillars:
 
 * **Healthcare Access** — Hospitals within a 3 km radius
 * **Education Access** — Schools within a 3 km radius
@@ -160,4 +160,4 @@ Contributions are welcome!
 ---
 
 
-**UrbanLens — Turning urban data into clear decisions.**
+**Livebl — Turning urban data into clear decisions.**
