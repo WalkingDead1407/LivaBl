@@ -1,0 +1,32 @@
+[project]
+name = "livebl-backend"
+version = "0.1.0"
+description = "Backend API and scoring engine for Livebl locality quality index"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.133.1",
+    "geopandas>=1.1.2",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "uvicorn>=0.41.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "uvicorn[standard]",
+    "pytest",
+    "ruff"
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
