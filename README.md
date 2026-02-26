@@ -104,9 +104,9 @@ pip install uv
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/urbanlens.git
+git clone https://github.com/WalkingDead1407/LivaBl.git
 
-cd urbanlens
+cd LivaBl
 ```
 
 #### Backend (uv workflow)
