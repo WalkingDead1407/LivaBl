@@ -1,0 +1,23 @@
+# Global owners
+* @WalkingDead1407
+
+# Backend
+/backend/ @WalkingDead1407
+
+# Data pipeline
+/backend/app/data/ @WalkingDead1407
+/data/ @WalkingDead1407
+/scripts/ @WalkingDead1407
+
+# API
+/backend/app/api/ @Wintxrxr
+
+# Frontend
+/frontend/ @Jnmj-dev
+
+# Docs
+/docs/ @WalkingDead1407
+
+# Config files
+pyproject.toml @WalkingDead1407
+uv.lock @WalkingDead1407
