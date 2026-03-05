@@ -15,3 +15,7 @@ __pycache__/
 
 # Processed heavy data (optional)
 data/livebl.db
+
+# Data that should not be tracked
+backend/cache/
+backend/data/raw/
