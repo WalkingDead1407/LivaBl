@@ -8,9 +8,16 @@ dependencies = [
     "fastapi>=0.133.1",
     "geopandas>=1.1.2",
     "numpy>=2.4.2",
+    "osmnx>=2.1.0",
     "pandas>=3.0.1",
     "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "pymysql>=1.1.2",
     "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "scipy>=1.17.1",
+    "shapely>=2.1.2",
+    "sqlalchemy>=2.0.47",
 ]
 
 [dependency-groups]

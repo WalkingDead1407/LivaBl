@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment / secrets
+.env
+
+# Local database
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+
+# Processed heavy data (optional)
+data/livebl.db
+
+# Data that should not be tracked
+backend/cache/
+backend/data/raw/

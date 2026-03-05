@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "aqi_stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "station": "R.K. Puram, Delhi, Delhi, India", "aqi": 179, "timestamp": "2026-03-03 22:00:00", "latitude": 28.5648, "longitude": 77.1744 }, "geometry": { "type": "Point", "coordinates": [ 77.1744, 28.5648 ] } },
+{ "type": "Feature", "properties": { "station": "Pusa, Delhi, Delhi, India", "aqi": 175, "timestamp": "2026-03-03 23:00:00", "latitude": 28.636997, "longitude": 77.172248 }, "geometry": { "type": "Point", "coordinates": [ 77.172248, 28.636997 ] } },
+{ "type": "Feature", "properties": { "station": "Jawaharlal Nehru Stadium, Delhi, Delhi, India", "aqi": 172, "timestamp": "2026-03-03 23:00:00", "latitude": 28.582846, "longitude": 77.234366 }, "geometry": { "type": "Point", "coordinates": [ 77.234366, 28.582846 ] } },
+{ "type": "Feature", "properties": { "station": "PGDAV College, Sriniwaspuri, Delhi, Delhi, India", "aqi": 163, "timestamp": "2026-03-03 22:00:00", "latitude": 28.566827, "longitude": 77.251418 }, "geometry": { "type": "Point", "coordinates": [ 77.251418, 28.566827 ] } },
+{ "type": "Feature", "properties": { "station": "Mother Dairy Plant, Parparganj, Delhi, Delhi, India", "aqi": 162, "timestamp": "2026-03-03 22:00:00", "latitude": 28.620171, "longitude": 77.287705 }, "geometry": { "type": "Point", "coordinates": [ 77.287705, 28.620171 ] } },
+{ "type": "Feature", "properties": { "station": "Delhi Institute of Tool Engineering, Wazirpur, Delhi, Delhi, India", "aqi": 162, "timestamp": "2026-03-03 21:00:00", "latitude": 28.700505, "longitude": 77.165603 }, "geometry": { "type": "Point", "coordinates": [ 77.165603, 28.700505 ] } },
+{ "type": "Feature", "properties": { "station": "ITI Shahdra, Jhilmil Industrial Area, Delhi, Delhi, India", "aqi": 159, "timestamp": "2026-03-04 01:00:00", "latitude": 28.672114, "longitude": 77.313832 }, "geometry": { "type": "Point", "coordinates": [ 77.313832, 28.672114 ] } },
+{ "type": "Feature", "properties": { "station": "Sonia Vihar Water Treatment Plant DJB, Delhi, Delhi, India", "aqi": 156, "timestamp": "2026-03-03 23:00:00", "latitude": 28.710066, "longitude": 77.24622 }, "geometry": { "type": "Point", "coordinates": [ 77.24622, 28.710066 ] } },
+{ "type": "Feature", "properties": { "station": "Satyawati College, Delhi, Delhi, India", "aqi": 154, "timestamp": "2026-03-04 01:00:00", "latitude": 28.69572, "longitude": 77.181295 }, "geometry": { "type": "Point", "coordinates": [ 77.181295, 28.69572 ] } },
+{ "type": "Feature", "properties": { "station": "Major Dhyan Chand National Stadium, Delhi, Delhi, India", "aqi": 151, "timestamp": "2026-03-04 00:00:00", "latitude": 28.612498, "longitude": 77.237388 }, "geometry": { "type": "Point", "coordinates": [ 77.237388, 28.612498 ] } },
+{ "type": "Feature", "properties": { "station": "ITI Jahangirpuri, Delhi, Delhi, India", "aqi": 129, "timestamp": "2026-03-03 19:00:00", "latitude": 28.733016, "longitude": 77.17197 }, "geometry": { "type": "Point", "coordinates": [ 77.17197, 28.733016 ] } },
+{ "type": "Feature", "properties": { "station": "Anand Vihar, Delhi, Delhi, India", "aqi": 125, "timestamp": "2026-03-03 20:00:00", "latitude": 28.6508, "longitude": 77.3152 }, "geometry": { "type": "Point", "coordinates": [ 77.3152, 28.6508 ] } },
+{ "type": "Feature", "properties": { "station": "Mandir Marg, Delhi, Delhi, India", "aqi": 111, "timestamp": "2026-03-04 01:00:00", "latitude": 28.6341, "longitude": 77.2005 }, "geometry": { "type": "Point", "coordinates": [ 77.2005, 28.6341 ] } }
+]
+}
