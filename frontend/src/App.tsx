@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react';
-import type { Neighborhood, ScoreCategory } from './types';
-import { getNeighborhoods, searchNeighborhoods } from './api/neighborhoods';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import MapPanel from './components/MapPanel';
+import { useEffect, useState } from "react";
+import type { Neighborhood, ScoreCategory } from "./types";
+import { getNeighborhoods, searchNeighborhoods } from "./api/neighborhoods";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import LiveMap from "./components/LiveMap";
 
 export default function App() {
   const [neighborhoods, setNeighborhoods] = useState<Neighborhood[]>([]);
   const [selected, setSelected] = useState<Neighborhood | null>(null);
-  const [activeCategory, setActiveCategory] = useState<ScoreCategory>('all');
+  const [activeCategory, setActiveCategory] = useState<ScoreCategory>("all");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -29,11 +29,17 @@ export default function App() {
 
   if (loading) {
     return (
-      <div style={{
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        height: '100vh', fontFamily: "'DM Sans', sans-serif",
-        color: '#6b6b64', fontSize: 14,
-      }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100vh",
+          fontFamily: "'DM Sans', sans-serif",
+          color: "#6b6b64",
+          fontSize: 14,
+        }}
+      >
         Loading neighborhoods…
       </div>
     );
@@ -53,11 +59,10 @@ export default function App() {
           onSelect={setSelected}
           activeCategory={activeCategory}
         />
-        <MapPanel
+        <LiveMap
           neighborhoods={neighborhoods}
           selected={selected}
           onSelect={setSelected}
-          activeCategory={activeCategory}
         />
       </div>
     </>
